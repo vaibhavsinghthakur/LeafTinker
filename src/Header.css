@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  background-color: #e8eae6;
+  overflow-x: scroll;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 3px 3px 5px 3px #cdd0cb;
+}
+.header_left > .MuiSvgIcon-root {
+  margin-left: 40px;
+}
+
+.header::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.header {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.header_middle > img {
+  width: 60px;
+  height: 60px;
+}
+.header_middle > h1 {
+  color: #0f0f0f;
+  font-size: 2.5rem;
+  margin: 0;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+}
+.header_right > h4 {
+  margin: 8px;
+  font-size: 17px;
+}
+.header_right > a {
+  text-decoration: none;
+  color: #03506f;
+  font-size: 1.1rem;
+  font-weight: 780;
+  margin-left: 10px;
+  margin-right: 5px;
+  box-shadow: 1px 2px 5px 3px #11698e;
+  border-radius: 10px;
+  padding: 5px;
+}
+.logo {
+  width: 50px !important;
+  height: 50px !important;
+  color: #03506f !important;
+}

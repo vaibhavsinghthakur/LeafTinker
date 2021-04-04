@@ -1,0 +1,44 @@
+.leftbar {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  flex: 0.4;
+  overflow: auto;
+  overflow-x: scroll;
+  width: 150px;
+  height: 300vh;
+  direction: ltr;
+  scrollbar-color: rebeccapurple green;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #98acf8;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px #949cdf;
+}
+
+.article {
+  direction: ltr;
+}
+.leftbar_form > h1 {
+  margin: 30px;
+  margin-left: 25px;
+  font-size: 45px;
+  color: #1687a7;
+  color: #00587a !important;
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  box-shadow: 2px 2px 3px 4px #11698e;
+  box-shadow: 2px 2px 3px 4px #3797a4 !important;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+}

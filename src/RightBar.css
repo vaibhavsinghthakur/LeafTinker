@@ -1,0 +1,6 @@
+.rightbar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+  padding-left: 60px !important;
+}

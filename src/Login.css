@@ -1,0 +1,37 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #e6e6e6;
+}
+.login_logo {
+  display: flex;
+  flex-direction: column;
+}
+.login_box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+.login_logo > .MuiSvgIcon-root {
+  font-size: 150px;
+  color: #03506f !important;
+  margin: 3px auto 3px auto !important;
+}
+.login_logo > h1 {
+  font-size: 80px;
+}
+.login_button {
+  width: 200px;
+  background-color: #75cfb8;
+  font-weight: 700;
+  color: #eff2f5;
+  padding: 5px;
+  font-size: medium;
+  margin: 40px auto 20px auto !important;
+}
+.login_box > button:hover {
+  background-color: white;
+  color: #2e81f4;
+}

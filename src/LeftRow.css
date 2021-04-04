@@ -1,0 +1,30 @@
+.leftrow {
+  margin: 25px;
+  width: 450px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: gainsboro;
+  border-radius: 20px;
+  margin-left: 2px;
+}
+.leftrow > a {
+  font-size: 1.2rem;
+  margin-top: 0;
+  color: #1a508b;
+  font-weight: 700;
+}
+.leftrow > img {
+  width: 450px;
+  border-radius: 20px;
+}
+.leftrow > h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-style: oblique;
+  font-size: 1.3rem;
+}
+.leftrow > p {
+  font-weight: 700;
+  font-size: large;
+  color: #493323;
+}
